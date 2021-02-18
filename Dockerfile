@@ -1,11 +1,7 @@
 
-
-
-
-
-
-hiiiiiiiiiiii
 FROM ubuntu 
-RUN apt update
-RUN apt install nginx && apt install openssl && apt insall telnet		
+RUN apt update &&a pt install nginx && apt install openssl && apt insall telnet		
 CMD "nginx"
+
+
+

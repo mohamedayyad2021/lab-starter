@@ -1,0 +1,35 @@
+{
+	"users" :
+	[
+		{
+		"firstname" : "mohamed",				
+		"lastname"  : "ayyad",
+		"age"		:	"28" ,
+		"hobbies"   : ["reading" , "football" , "learning" ,"eating koskosy" ] ,
+		"frinds" : [
+		            {
+				"name" : "ahmed omar" ,	
+				"age"   : "27"
+					
+					}
+		
+		           ]
+		},
+		
+		{
+		"firstname" : "ahmed",				
+		"lastname"  : "ayyad",
+		"age"		:	"27"
+		}
+	],
+			
+			"subjects" :
+	
+	[	
+		{
+		     "name" : "Devopstraining" ,
+			 "id"	 : "10"
+		}
+	]
+	
+}
