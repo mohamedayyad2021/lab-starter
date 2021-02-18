@@ -1,0 +1,34 @@
+microservices : 
+#this is yml syntax ,  obeject " key-value paired" , comment as yaml is support comments not like json and also this is a list of array
+        # list of objects for this attribute
+            - app : user-auth 
+              port : 9000
+              version : 1.01 
+              deployed : yes 
+              metadata : {{.sevices.values.name }}
+              #metadata is cocept of placeholders
+        #yaml is support booleans like yes , no , true , false ,on and off
+        # list of objects for this attribute
+               
+               
+        --- 
+#--- stands for multiple yaml docs      
+               - app : list of products 
+                 port : 9001
+                 versions :
+                 - 1.1
+                 - 1.2
+                 - 1.3
+                 #or versions : [1.1 , 1.2 , 1.3 ]
+                 deployed : no
+                 #this is also single line examples , sho8l fanade2  ya3ny 
+               - multistring : | #this is attribute
+               this is single line 
+               second line
+               second line bardo 
+               - multistring2 : >  
+               #this is attribute
+               this is single line ,
+               second line .
+               second line bardo
+               
